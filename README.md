@@ -1,4 +1,4 @@
-# Umbrel Companion 🧭
+# Umbrel Companion ??
 
 Kotlin + Jetpack Compose app to monitor Umbrel node.
 
