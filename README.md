@@ -1,17 +1,11 @@
-# Umbrel Companion ??
+# Umbrel Companion 🧭
 
-An Android app built with Kotlin and Jetpack Compose to interact with your Umbrel node.
+Kotlin + Jetpack Compose app to monitor Umbrel node.
 
 ## Features
-- View installed Umbrel apps
-- Monitor CPU, memory, and disk usage
-- Modular MVVM architecture
-- Docker mock API for local testing
+- View installed apps
+- Monitor CPU, memory, disk
+- MVVM + Retrofit
 
-## Setup
-1. Clone the repo
-2. Open in Android Studio
-3. Run the app on a device on the same network as Umbrel
-
-## License
-MIT
+## Docker Mock API
+docker run -p 8080:80 -d ghcr.io/warren-ai/umbrel-mock-api:latest
